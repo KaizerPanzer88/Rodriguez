@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Reading Hobbies</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('Kong.gif');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: #ffffff;
+        }
+        header {
+            background-color: #161718;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .reading-section {
+            background-color: rgba(26, 23, 23, 0.8); 
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .section-title {
+            color: #f3f5f7;
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 10px;
+        }
+        .reading-info {
+            margin-bottom: 20px;
+        }
+        .reading-images {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .reading-item {
+            width: calc(33% - 10px);
+            margin-bottom: 20px;
+            position: relative;
+            aspect-ratio: 2 / 3; 
+            overflow: hidden;
+        }
+
+        .reading-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px;
+        }
+
+        .reading-title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #ffffff;
+            padding: 5px;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #000000;
+            color: rgb(248, 246, 246);
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: white;">Reading Hobbies</h1>
+    </header>
+
+    <a href="index.html" class="back-button" target="_self"><strong>Back to Home</strong></a>
+
+    <section class="reading-section">
+        <h2 class="section-title">Manhwa</h2>
+        <div class="reading-info">
+            <p><b>I've been reading manhwa for years, and I'm always amazed by the unique storytelling and beautiful artwork. Some of my favorite manhwa include Solo Leveling, The Beginning After the End, and Tower of God. The vibrant colors and dynamic panel layouts make for an immersive reading experience.</b></p>
+        </div>
+        <div class="reading-images">
+            <div class="reading-item">
+                <div class="reading-title"><b>TheWorldAfterTheFall</b></div>
+                <img src="Manhwa1.jpg" alt="TheWorldAftertheFall" class="reading-image">
+            </div>
+            <div class="reading-item">
+                <div class="reading-title"><b>Player</b></div>
+                <img src="Manhwa2.jpg" alt="The Beginning After the End" class="reading-image">
+            </div>
+            <div class="reading-item">
+                <div class="reading-title"><b>LazyLordsWayToSword</b></div>
+                <img src="Manhwa3.jpg" alt="Tower of God" class="reading-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="reading-section">
+        <h2 class="section-title">Light Novels</h2>
+        <div class="reading-info">
+            <p><b>Light novels offer a perfect blend of engaging narratives and occasional illustrations. I particularly enjoy isekai and fantasy genres. These stories often provide deeper character development and world-building compared to other mediums.</b></p>
+        </div>
+        <div class="reading-images">
+            <div class="reading-item">
+                <div class="reading-title"><b>Overlord</b></div>
+                <img src="LN2.jpg" alt="Overlord" class="reading-image">
+            </div>
+            <div class="reading-item">
+                <div class="reading-title"><b>ThatTimeIReincarnatedAsASlime</b></div>
+                <img src="LN1.jpg" alt="Tensura" class="reading-image">
+            </div>
+            <div class="reading-item">
+                <div class="reading-title"><b>JoblessReincarnation</b></div>
+                <img src="LN3.jpg" alt="JoblessReincarnation" class="reading-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="reading-section">
+        <h2 class="section-title">Manga</h2>
+        <div class="reading-info">
+            <p><b>Manga has been a significant part of my reading hobby. From action-packed shonen to thought-provoking seinen, I've explored various genres. Some of my all-time favorites include One Piece, Berserk, and Attack on Titan. The artistic styles and storytelling techniques in manga continue to captivate me.</b></p>
+        </div>
+        <div class="reading-images">
+            <div class="reading-item">
+                <div class="reading-title"><b>One Piece</b></div>
+                <img src="Manga1.jpg" alt="One Piece" class="reading-image">
+            </div>
+            <div class="reading-item">
+                <div class="reading-title"><b>Wisteria</b></div>
+                <img src="Wisteria.jpg" alt="Wisteria" class="reading-image">
+            </div>
+            <div class="reading-item">
+                <div class="reading-title"><b>ReincarnatedAstheSeventhPrince</b></div>
+                <img src="Prince.jpg" alt="ReincarnatedAstheSeventhPrince" class="reading-image">
+            </div>
+        </div>
+    </section>
+
+    <a href="index.html" class="back-button"><b>Back to Home</b></a>
+</body>
+</html>
